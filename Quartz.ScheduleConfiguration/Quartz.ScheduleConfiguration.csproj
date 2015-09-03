@@ -54,6 +54,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Web.config.transform" />
+    <None Include="Quartz.ScheduleConfiguration.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\ReturnNull.NuGetBuilds.1.0.2\build\ReturnNull.NuGetBuilds.targets" Condition="Exists('..\packages\ReturnNull.NuGetBuilds.1.0.2\build\ReturnNull.NuGetBuilds.targets')" />

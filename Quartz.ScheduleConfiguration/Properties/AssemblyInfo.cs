@@ -6,8 +6,8 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Quartz.ScheduleConfiguration")]
-[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
+[assembly: AssemblyDescription("Provides a custom configuration section to define schedules that can be converted to CRON expressions.")]
 [assembly: AssemblyCompany("Ve Interactive Ltd")]
 [assembly: AssemblyProduct("Quartz.ScheduleConfiguration")]
 [assembly: AssemblyCopyright("Copyright © Ve Interactive Ltd 2015")]
