@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="DailySchedules" type="Quartz.ScheduleConfiguration.ConfigurationSection.DailySchedules, Quartz.ScheduleConfiguration"/>
+  </configSections>
+  <DailySchedules>
+    <Schedule Name="Dummy">
+      <!-- 
+      this is an example schedule. It will run twice 
+      every hour: on the hour and at half past the hour 
+      -->
+      <Hours Type="All"  />
+      <Minutes Type="Values" Values="0,30" />
+      <Seconds Type="Values" Values="0" />
+    </Schedule>
+  </DailySchedules>
+</configuration>
